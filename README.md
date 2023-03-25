@@ -7,3 +7,5 @@ The gen_anime_w_mal function generates anime information using the MyAnimeList w
 The gen_anime_w_gogo function generates anime information using the GogoAnime website. It takes three parameters: page, n_episodes, and debug. The function sends a request to the GogoAnime website to get a list of anime on a specific page. It then iterates over each anime on the page, sends a request to the anime's page to get more information, and extracts the relevant anime information to create an Anime object.
 
 The script also installs a requests cache to reduce the number of requests made to the websites, and uses multiprocessing and threading to speed up the scraping process. Finally, the script handles various errors and retries requests if necessary.
+
+This is mainly for educational purposes and for demonstrations, please check if these sites are happy with using these webscrapers and their data commercially.
